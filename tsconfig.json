@@ -1,0 +1,21 @@
+{
+  // TypeScript & Bundler Configuration for React 19 + Vite
+  "compilerOptions": {
+    "target": "ES2020",                         // Modern ECMAScript 2020 syntax target
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],  // Browser DOM and modern ES standard library types
+    "module": "ESNext",                         // Use latest ES module system for Vite bundler
+    "skipLibCheck": true,                       // Skip type checking of declaration files for fast builds
+    "moduleResolution": "bundler",              // Bundler-friendly resolution strategy (Vite/Rollup)
+    "allowImportingTsExtensions": true,         // Allows flexible importing of TypeScript extensions
+    "resolveJsonModule": true,                  // Enables direct import of JSON corpus files
+    "isolatedModules": true,                    // Enforces per-file transpilation safety
+    "noEmit": true,                             // Transpilation is handled directly by Vite bundler
+    "jsx": "react-jsx",                         // Modern React 17+ / 19 JSX runtime transform
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]                            // Include all source files under src/
+}
