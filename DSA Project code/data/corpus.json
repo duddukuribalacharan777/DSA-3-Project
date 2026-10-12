@@ -1,0 +1,42 @@
+[
+  {
+    "id": "doc-09",
+    "filename": "digital_libraries_corpus_indexing.txt",
+    "title": "Full-Text Search Engine Architectures for Digital Libraries",
+    "author": "Digital Archiving Society",
+    "category": "Digital Libraries",
+    "status": "INDEXED",
+    "dateIndexed": "2026-09-21",
+    "content": "Academic digital libraries archive vast repositories of technical manuscripts, historical records, and scanned literature. Researchers frequently seek exact citations, mathematical definitions, or rare substrings that traditional search indices miss. Implementing a full-text search engine on a Suffix-Array index empowers patrons to execute precise substring search queries with instantaneous feedback. The compact footprint of suffix arrays allows universities to host rich searchable collections on standard commodity servers without requiring distributed clusters."
+  },
+  {
+    "id": "doc-10",
+    "filename": "algorithm_complexity_benchmarking.txt",
+    "title": "Complexity Proofs and Empirical Benchmarks for Suffix Indexing",
+    "author": "DSA-3 Performance Group",
+    "category": "Complexity",
+    "status": "INDEXED",
+    "dateIndexed": "2026-09-21",
+    "content": "Theoretical complexity bounds for the full-text search engine pipeline:\n1. Suffix Array Construction: O(n log² n) via prefix doubling or O(n) via SA-IS.\n2. LCP Array Construction: O(n) via Kasai's algorithm.\n3. Substring Search: O(m + log n) via LCP-accelerated binary search.\n4. Memory Consumption: 4n bytes for Suffix Array + 4n bytes for LCP Array = 8n bytes total.\nEmpirical tests demonstrate that suffix array queries achieve 3.8 ms average response time across 1.24 million indexed characters, providing an optimal balance between construction throughput and search performance."
+  },
+  {
+    "id": "doc-11",
+    "filename": "project_report_dsa_team16.txt",
+    "title": "Full-Text Search Engine on Suffix-Array Index — Project Report",
+    "author": "Team 16 • Section 10",
+    "category": "Academic",
+    "status": "INDEXED",
+    "dateIndexed": "2026-09-21",
+    "content": "This academic project develops a complete full-text search engine prototype leveraging Suffix Array and LCP Array data structures for Data Structures and Algorithms - 3 (25CS2103E). The system demonstrates that advanced suffix structures offer superior capabilities for substring, prefix, and phrase search. By integrating Kasai's algorithm and LCP-accelerated binary search, our system provides students and researchers with an interactive platform for studying indexing algorithms and experiencing real-time search ranking."
+  },
+  {
+    "id": "doc-12",
+    "filename": "text_analytics_nlp_applications.txt",
+    "title": "Text Analytics and Pattern Discovery with Suffix Indexes",
+    "author": "Data Analytics Institute",
+    "category": "Text Analytics",
+    "status": "INDEXED",
+    "dateIndexed": "2026-09-21",
+    "content": "Beyond simple keyword lookup, suffix arrays play an instrumental role in text analytics and natural language processing. Finding the longest repeated substring in a corpus reduces to finding the maximum value in the LCP array in O(n) time. Similarly, identifying common phrases, detecting plagiarism, and calculating n-gram frequencies are directly computable through range queries over the sorted suffix array. The combination of Suffix Array and LCP Array forms the foundational cornerstone of modern text analytics engines."
+  }
+]
